@@ -1,5 +1,6 @@
 public class House {
         public static void main(String[] args) {
+            int f = 0;
             String house1 = "________________'\"_____";
             String house2 = "_______________---_____";
             String house3 = "__________/\\_|_|_______";
