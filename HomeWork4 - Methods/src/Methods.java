@@ -12,7 +12,7 @@ public class Methods {
         String sum;          // для вывода суммы словами
         String[] lineM;      // массив для первоначально введенной строки
         String[] lineN;      // массив для второго элемента lineM - числа
-        int g = 0;
+        int g = 5;
 
         do {
             do {
@@ -70,7 +70,7 @@ public class Methods {
                 break;
             default:
                 sum = "больше десяти";
-        };
+        }
 
         System.out.println("Здравствуй, " + lineM[0] + "! Сумма цифр в числе = " + sum);
     }
